@@ -33,6 +33,8 @@ export default {
 <style scoped>
     .navbar {
         background-color: #0D0D0D;
+        position: fixed;
+        width: 100%;
     }
 
     .navbar-brand {
@@ -53,11 +55,16 @@ export default {
 
     .nav-link:hover {
         color: #8E24AA;
-        transform: scale(1.2);
     }
 
     .nav-item {
         margin-right: 0.75rem;
         margin-left: 0.75rem;
     }
+
+    @media (min-width: 1024px) { 
+        .nav-link:hover {
+            transform: scale(1.2);
+        }
+     }
 </style>
