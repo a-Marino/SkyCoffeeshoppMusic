@@ -4,7 +4,7 @@
           <div class="container-fluid">
             <router-link class="navbar-brand" to='/'>Sky coffeshop</router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <font-awesome-icon icon="bars"/>
+                <font-awesome-icon icon="bars" class="text-black"/>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
@@ -32,15 +32,21 @@ export default {
 
 <style scoped>
     .navbar {
-        background-color: #0D0D0D;
+        background-color: var(--negro-fondo);
         position: fixed;
-        width: 100%;
+        width: 100vw;
+        height: 60px;
+    }
+
+    .navbar-collapse {
+        background-color: var(--negro-fondo);
+        border-radius: 5px;
     }
 
     .navbar-brand {
-        color: #8E24AA;
+        color: var(--violeta);
         font-weight: bold;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .navbar-toggler {
@@ -48,13 +54,14 @@ export default {
     }
 
     .nav-link {
-        color: #04FFBB;
+        color: var(--verde-agua);
         font-weight: 500;
         transition: .2s ease-out;
+        font-size: 0.75em;
     }
 
     .nav-link:hover {
-        color: #8E24AA;
+        color: var(--violeta);
     }
 
     .nav-item {

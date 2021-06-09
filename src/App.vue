@@ -15,6 +15,8 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
   :root {
     --negro-fondo: #0D0D0D;
     --violeta: #8E24AA;
@@ -27,12 +29,13 @@ export default {
   }
 
   body {
-    height: 100vh;
-    width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
     background-color: var(--negro-fondo) !important;
     box-sizing: border-box;
     color: #fff !important;
     overflow-y: scroll;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif !important;
   }
 </style>

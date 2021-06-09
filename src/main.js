@@ -6,9 +6,11 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import '@/assets/css/tailwind.css'
 
-library.add(faBars)
+library.add(faBars, faShoppingCart)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

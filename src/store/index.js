@@ -3,6 +3,8 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
+import canciones from '@/modules/canciones'
+
 export default new Vuex.Store({
   state: {
   },
@@ -11,5 +13,7 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
+    // datos de prueba
+    canciones,
   }
 })
