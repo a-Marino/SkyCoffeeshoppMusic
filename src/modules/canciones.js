@@ -30,11 +30,14 @@ export default {
         ],
     },
     getters: {
-      cancionesCounter: state => {
+      getCancionesCounter: state => {
         return state.cancionesState.length
       }
     },
     mutations: {
+      setCancion (state, payload) {
+        state.cancionesState.push(payload);
+      }
     },
     actions: {
     },
