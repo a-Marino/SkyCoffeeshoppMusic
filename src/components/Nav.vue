@@ -12,10 +12,10 @@
                     <router-link to='/' class="nav-link active" aria-current="active">Home</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to='/' class="nav-link active" aria-current="active">About</router-link>
+                    <router-link :to="{name:'about'}" class="nav-link active" aria-current="active">About</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link to='/' class="nav-link active" aria-current="active">Contact</router-link>
+                    <router-link :to="{name:'contacto'}" class="nav-link active" aria-current="active">Contact</router-link>
                 </li>
               </ul>
             </div>
