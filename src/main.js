@@ -10,11 +10,9 @@ import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import '@/assets/css/tailwind.css'
 
-
 library.add(faBars, faShoppingCart)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-
 
 Vue.config.productionTip = false
 
