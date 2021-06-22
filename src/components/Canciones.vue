@@ -32,21 +32,19 @@
                 </tr>
             </tbody>
         </table>
-        <h1 class="text-center verde-agua mb-3 text-xl">
-            Total de canciones: <span class="violeta"> {{getCancionesCounter}} </span>
-        </h1>
         <button class="block mx-auto mt-5 mb-5 btn-more">Mas canciones</button>
     </div>  
 </template>
 
 <script>
-import {mapState, mapGetters} from 'vuex'
+import {mapState} from 'vuex'
+import {mapGetters} from 'vuex'
 
 export default {
     name: 'Canciones',
     computed: {
         ...mapState('canciones', ['cancionesState']),
-        ...mapGetters('canciones', ['getCancionesCounter'])
+        ...mapGetters('canciones', ['cancionesCounter'])
     }
 }
 </script>
@@ -70,7 +68,6 @@ export default {
     
     .portadas {
         height: 60px;
-        width: 60px;
         border-radius: 5px;
     }
 
@@ -78,7 +75,6 @@ export default {
         display: block;
         margin: auto;
         height: 150px;
-        width: 150px;
         border-radius: 5px;
     }
 

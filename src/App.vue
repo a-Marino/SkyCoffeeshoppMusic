@@ -23,14 +23,6 @@ export default {
     --verde-agua: #03F499;
   }
 
-  .violeta {
-    color: var(--violeta);
-  }
-
-  .verde-agua {
-    color: var(--verde-agua);
-  }
-
   * {
     margin: 0;
     padding: 0;
