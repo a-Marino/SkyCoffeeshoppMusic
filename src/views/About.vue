@@ -1,50 +1,29 @@
 <template>
-   <div>
-    <header>
-
-        <section class="section-1 d-flex justify-content-center align-items-center">
-       
-        <h1 class="text-5xl">ABOUT</h1> 
-
-        <img src="https://s3.amazonaws.com/beatstarsdata/proweb/2.0/user-styles/uploads/published/2876769/main_bg_mobile.jpg?_=1622162090" alt="" class="img-circle">
-        
-        <h2 class="text-2xl">Biography</h2>
-        <p class="text-1xl">Argentine Beatmaker, Rapper and visual artist.</p>
-       
-        </section>
-    </header>
+   <div class="about flex flex-col justify-content-center items-center p-24 space-y-5">
+        <h1 class="text-5xl font-semibold">About</h1> 
+        <img src="https://s3.amazonaws.com/beatstarsdata/proweb/2.0/user-styles/uploads/published/2876769/main_bg_mobile.jpg?_=1622162090" alt="foto-perfil" class="img-circle">
+        <h2 class="text-2xl font-semibold">Biography</h2>
+        <p class="text-xs">Argentine Beatmaker, Rapper and visual artist.</p>
    </div>
 </template>
 
 
-<script>
-
+<script>    
 export default {
     name:'about'
-    
 }
 </script>
 
 
-<style>
-
-img {
-  border-radius: 50%;
-  width:200px;
-  display:block;
-  margin: 50px;
-}
-.section-1 {
-    min-height: 50vh;
-    background-position: center;
+<style scoped>
+.about {
+    height: 100%;
+    width: 100%;
 }
 
-h1{
-    color: #ffff;
-     display:block;
-  margin: 50px;
+.img-circle {
+    border-radius: 50%;
+    width:200px;
+    display:block;
 }
-
-   
-    
 </style>
