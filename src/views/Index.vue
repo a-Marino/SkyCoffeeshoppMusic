@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
     .section-1 {
         min-height: 100vh;
         min-width: 100%;

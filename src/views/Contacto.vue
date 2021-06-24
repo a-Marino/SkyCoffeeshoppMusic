@@ -48,23 +48,5 @@ export default {
 </script>
 
 <style scoped>
-    .section-1 {
-        min-height: 100vh;
-        min-width: 100%;
-        background-image: url('https://s3.amazonaws.com/beatstarsdata/proweb/2.0/user-styles/uploads/published/2876769/main_bg_mobile.jpg?_=1622162090');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
-    }
 
-
-    @media (min-width: 768px) { 
-        .section-1 {
-            background-image: url('https://s3.amazonaws.com/beatstarsdata/proweb/2.0/user-styles/uploads/published/2876769/main_bg.jpg?_=1622162034');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    }
 </style>
